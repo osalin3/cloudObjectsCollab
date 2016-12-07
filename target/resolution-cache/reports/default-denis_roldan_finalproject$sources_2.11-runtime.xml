@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="denis_roldan_finalproject$sources_2.11"
+		revision="1.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20161205172027"/>
+	<dependencies>
+		<module organisation="mysql" name="mysql-connector-java">
+			<revision name="6.0.5" status="release" pubdate="20161010115946" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dev.mysql.com/doc/connector-j/en/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="45">
+				<license name="The GNU General Public License, Version 2" url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2440" time="0" location="C:\Users\Denis\.ivy2\cache\mysql\mysql-connector-java\ivy-6.0.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/mysql/mysql-connector-java/6.0.5/mysql-connector-java-6.0.5.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="6.0.5" rev-constraint-default="6.0.5" rev-constraint-dynamic="6.0.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="mysql-connector-java" type="jar" ext="jar" status="no" details="" size="1891236" time="0" location="C:\Users\Denis\.ivy2\cache\mysql\mysql-connector-java\jars\mysql-connector-java-6.0.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/mysql/mysql-connector-java/6.0.5/mysql-connector-java-6.0.5.jar"/>
+					</artifact>
+					<artifact name="mysql-connector-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1217977" time="0" location="C:\Users\Denis\.ivy2\cache\mysql\mysql-connector-java\srcs\mysql-connector-java-6.0.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/mysql/mysql-connector-java/6.0.5/mysql-connector-java-6.0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.slick" name="slick_2.11">
+			<revision name="3.1.1" status="release" pubdate="20151215160704" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://slick.typesafe.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="43">
+				<license name="Two-clause BSD-style license" url="http://github.com/slick/slick/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3039" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.slick\slick_2.11\ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/slick/slick_2.11/3.1.1/slick_2.11-3.1.1.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slick_2.11" type="jar" ext="jar" status="no" details="" size="4648742" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.slick\slick_2.11\jars\slick_2.11-3.1.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/slick/slick_2.11/3.1.1/slick_2.11-3.1.1.jar"/>
+					</artifact>
+					<artifact name="slick_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="293720" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.slick\slick_2.11\srcs\slick_2.11-3.1.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/slick/slick_2.11/3.1.1/slick_2.11-3.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.10" status="release" pubdate="20150106141100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="44">
+				<metadata-artifact status="no" details="" size="4714" time="0" location="C:\Users\Denis\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="32119" time="0" location="C:\Users\Denis\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.10.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50644" time="0" location="C:\Users\Denis\.ivy2\cache\org.slf4j\slf4j-api\srcs\slf4j-api-1.7.10-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jdt" name="org.eclipse.jdt.core">
+			<revision name="3.10.0" status="release" pubdate="20150202091900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="29">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3237" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.jdt\org.eclipse.jdt.core\ivy-3.10.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/jdt/org.eclipse.jdt.core/3.10.0/org.eclipse.jdt.core-3.10.0.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="3.10.0" rev-constraint-default="3.10.0" rev-constraint-dynamic="3.10.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.jdt.core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="0" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.jdt\org.eclipse.jdt.core\srcs\org.eclipse.jdt.core-3.10.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/jdt/org.eclipse.jdt.core/3.10.0/org.eclipse.jdt.core-3.10.0-sources.jar"/>
+					</artifact>
+					<artifact name="org.eclipse.jdt.core" type="jar" ext="jar" status="no" details="" size="5565845" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.jdt\org.eclipse.jdt.core\jars\org.eclipse.jdt.core-3.10.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/jdt/org.eclipse.jdt.core/3.10.0/org.eclipse.jdt.core-3.10.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.text" name="org.eclipse.text">
+			<revision name="3.5.101" status="release" pubdate="20131023150700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="41">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2753" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.text\org.eclipse.text\ivy-3.5.101.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/text/org.eclipse.text/3.5.101/org.eclipse.text-3.5.101.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="3.5.101" rev-constraint-default="3.5.101" rev-constraint-dynamic="3.5.101" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.text" type="jar" ext="jar" status="no" details="" size="248178" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.text\org.eclipse.text\jars\org.eclipse.text-3.5.101.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/text/org.eclipse.text/3.5.101/org.eclipse.text-3.5.101.jar"/>
+					</artifact>
+					<artifact name="org.eclipse.text" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="437" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.text\org.eclipse.text\srcs\org.eclipse.text-3.5.101-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/text/org.eclipse.text/3.5.101/org.eclipse.text-3.5.101-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.core" name="org.eclipse.core.commands">
+			<revision name="3.6.0" status="release" pubdate="20131023141600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="42">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2425" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.commands\ivy-3.6.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.commands/3.6.0/org.eclipse.core.commands-3.6.0.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="3.6.0" rev-constraint-default="3.6.0" rev-constraint-dynamic="3.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.core.commands" type="jar" ext="jar" status="no" details="" size="107210" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.commands\jars\org.eclipse.core.commands-3.6.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.commands/3.6.0/org.eclipse.core.commands-3.6.0.jar"/>
+					</artifact>
+					<artifact name="org.eclipse.core.commands" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="141261" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.commands\srcs\org.eclipse.core.commands-3.6.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.commands/3.6.0/org.eclipse.core.commands-3.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.core" name="org.eclipse.core.resources">
+			<revision name="3.7.100" status="release" pubdate="20131023154640" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="30">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3096" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.resources\ivy-3.7.100.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.resources/3.7.100/org.eclipse.core.resources-3.7.100.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="3.7.100" rev-constraint-default="3.7.100" rev-constraint-dynamic="3.7.100" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.core.resources" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="437" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.resources\srcs\org.eclipse.core.resources-3.7.100-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.resources/3.7.100/org.eclipse.core.resources-3.7.100-sources.jar"/>
+					</artifact>
+					<artifact name="org.eclipse.core.resources" type="jar" ext="jar" status="no" details="" size="810220" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.resources\jars\org.eclipse.core.resources-3.7.100.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.resources/3.7.100/org.eclipse.core.resources-3.7.100.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.core" name="org.eclipse.core.filesystem">
+			<revision name="1.3.100" status="release" pubdate="20131023151518" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="40">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2948" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.filesystem\ivy-1.3.100.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.filesystem/1.3.100/org.eclipse.core.filesystem-1.3.100.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="1.3.100" rev-constraint-default="1.3.100" rev-constraint-dynamic="1.3.100" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.core.filesystem" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="437" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.filesystem\srcs\org.eclipse.core.filesystem-1.3.100-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.filesystem/1.3.100/org.eclipse.core.filesystem-1.3.100-sources.jar"/>
+					</artifact>
+					<artifact name="org.eclipse.core.filesystem" type="jar" ext="jar" status="no" details="" size="53218" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.filesystem\jars\org.eclipse.core.filesystem-1.3.100.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.filesystem/1.3.100/org.eclipse.core.filesystem-1.3.100.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.core" name="org.eclipse.core.expressions">
+			<revision name="3.4.300" status="release" pubdate="20131023154340" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="31">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2626" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.expressions\ivy-3.4.300.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.expressions/3.4.300/org.eclipse.core.expressions-3.4.300.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="3.4.300" rev-constraint-default="3.4.300" rev-constraint-dynamic="3.4.300" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.core.expressions" type="jar" ext="jar" status="no" details="" size="86992" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.expressions\jars\org.eclipse.core.expressions-3.4.300.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.expressions/3.4.300/org.eclipse.core.expressions-3.4.300.jar"/>
+					</artifact>
+					<artifact name="org.eclipse.core.expressions" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="437" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.expressions\srcs\org.eclipse.core.expressions-3.4.300-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.expressions/3.4.300/org.eclipse.core.expressions-3.4.300-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.core" name="org.eclipse.core.runtime">
+			<revision name="3.7.0" status="release" pubdate="20131023152935" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="32">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3756" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.runtime\ivy-3.7.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.runtime/3.7.0/org.eclipse.core.runtime-3.7.0.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="3.7.0" rev-constraint-default="3.7.0" rev-constraint-dynamic="3.7.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.core.runtime" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="437" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.runtime\srcs\org.eclipse.core.runtime-3.7.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.runtime/3.7.0/org.eclipse.core.runtime-3.7.0-sources.jar"/>
+					</artifact>
+					<artifact name="org.eclipse.core.runtime" type="jar" ext="jar" status="no" details="" size="70526" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.runtime\jars\org.eclipse.core.runtime-3.7.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.runtime/3.7.0/org.eclipse.core.runtime-3.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.equinox" name="org.eclipse.equinox.app">
+			<revision name="1.3.100" status="release" pubdate="20131029090200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="39">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2429" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.app\ivy-1.3.100.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/equinox/org.eclipse.equinox.app/1.3.100/org.eclipse.equinox.app-1.3.100.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="1.3.100" rev-constraint-default="1.3.100" rev-constraint-dynamic="1.3.100" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.equinox.app" type="jar" ext="jar" status="no" details="" size="85220" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.app\jars\org.eclipse.equinox.app-1.3.100.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/equinox/org.eclipse.equinox.app/1.3.100/org.eclipse.equinox.app-1.3.100.jar"/>
+					</artifact>
+					<artifact name="org.eclipse.equinox.app" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="437" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.app\srcs\org.eclipse.equinox.app-1.3.100-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/equinox/org.eclipse.equinox.app/1.3.100/org.eclipse.equinox.app-1.3.100-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.core" name="org.eclipse.core.contenttype">
+			<revision name="3.4.100" status="release" pubdate="20131023151044" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="38">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2976" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.contenttype\ivy-3.4.100.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.contenttype/3.4.100/org.eclipse.core.contenttype-3.4.100.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="3.4.100" rev-constraint-default="3.4.100" rev-constraint-dynamic="3.4.100" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.core.contenttype" type="jar" ext="jar" status="no" details="" size="91961" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.contenttype\jars\org.eclipse.core.contenttype-3.4.100.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.contenttype/3.4.100/org.eclipse.core.contenttype-3.4.100.jar"/>
+					</artifact>
+					<artifact name="org.eclipse.core.contenttype" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="437" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.contenttype\srcs\org.eclipse.core.contenttype-3.4.100-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.contenttype/3.4.100/org.eclipse.core.contenttype-3.4.100-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.equinox" name="org.eclipse.equinox.preferences">
+			<revision name="3.4.1" status="release" pubdate="20131023134851" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="37">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2798" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.preferences\ivy-3.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/equinox/org.eclipse.equinox.preferences/3.4.1/org.eclipse.equinox.preferences-3.4.1.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.equinox.preferences" type="jar" ext="jar" status="no" details="" size="111595" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.preferences\jars\org.eclipse.equinox.preferences-3.4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/equinox/org.eclipse.equinox.preferences/3.4.1/org.eclipse.equinox.preferences-3.4.1.jar"/>
+					</artifact>
+					<artifact name="org.eclipse.equinox.preferences" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="437" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.preferences\srcs\org.eclipse.equinox.preferences-3.4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/equinox/org.eclipse.equinox.preferences/3.4.1/org.eclipse.equinox.preferences-3.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.equinox" name="org.eclipse.equinox.registry">
+			<revision name="3.5.101" status="release" pubdate="20131023134140" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="36">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2641" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.registry\ivy-3.5.101.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/equinox/org.eclipse.equinox.registry/3.5.101/org.eclipse.equinox.registry-3.5.101.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="3.5.101" rev-constraint-default="3.5.101" rev-constraint-dynamic="3.5.101" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.equinox.registry" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="437" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.registry\srcs\org.eclipse.equinox.registry-3.5.101-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/equinox/org.eclipse.equinox.registry/3.5.101/org.eclipse.equinox.registry-3.5.101-sources.jar"/>
+					</artifact>
+					<artifact name="org.eclipse.equinox.registry" type="jar" ext="jar" status="no" details="" size="183035" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.registry\jars\org.eclipse.equinox.registry-3.5.101.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/equinox/org.eclipse.equinox.registry/3.5.101/org.eclipse.equinox.registry-3.5.101.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.core" name="org.eclipse.core.jobs">
+			<revision name="3.5.100" status="release" pubdate="20131023152121" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="35">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2620" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.jobs\ivy-3.5.100.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.jobs/3.5.100/org.eclipse.core.jobs-3.5.100.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="3.5.100" rev-constraint-default="3.5.100" rev-constraint-dynamic="3.5.100" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.core.jobs" type="jar" ext="jar" status="no" details="" size="91044" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.jobs\jars\org.eclipse.core.jobs-3.5.100.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.jobs/3.5.100/org.eclipse.core.jobs-3.5.100.jar"/>
+					</artifact>
+					<artifact name="org.eclipse.core.jobs" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="437" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.core\org.eclipse.core.jobs\srcs\org.eclipse.core.jobs-3.5.100-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/core/org.eclipse.core.jobs/3.5.100/org.eclipse.core.jobs-3.5.100-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.equinox" name="org.eclipse.equinox.common">
+			<revision name="3.6.0" status="release" pubdate="20131023105238" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="34">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2431" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.common\ivy-3.6.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/equinox/org.eclipse.equinox.common/3.6.0/org.eclipse.equinox.common-3.6.0.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="3.6.0" rev-constraint-default="3.6.0" rev-constraint-dynamic="3.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.equinox.common" type="jar" ext="jar" status="no" details="" size="105624" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.common\jars\org.eclipse.equinox.common-3.6.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/equinox/org.eclipse.equinox.common/3.6.0/org.eclipse.equinox.common-3.6.0.jar"/>
+					</artifact>
+					<artifact name="org.eclipse.equinox.common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="437" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.common\srcs\org.eclipse.equinox.common-3.6.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/equinox/org.eclipse.equinox.common/3.6.0/org.eclipse.equinox.common-3.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.osgi" name="org.eclipse.osgi">
+			<revision name="3.7.1" status="release" pubdate="20131023135826" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="33">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2399" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.osgi\org.eclipse.osgi\ivy-3.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/osgi/org.eclipse.osgi/3.7.1/org.eclipse.osgi-3.7.1.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="3.7.1" rev-constraint-default="3.7.1" rev-constraint-dynamic="3.7.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.osgi" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="437" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.osgi\org.eclipse.osgi\srcs\org.eclipse.osgi-3.7.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/osgi/org.eclipse.osgi/3.7.1/org.eclipse.osgi-3.7.1-sources.jar"/>
+					</artifact>
+					<artifact name="org.eclipse.osgi" type="jar" ext="jar" status="no" details="" size="1363464" time="0" location="C:\Users\Denis\.ivy2\cache\org.eclipse.osgi\org.eclipse.osgi\jars\org.eclipse.osgi-3.7.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/osgi/org.eclipse.osgi/3.7.1/org.eclipse.osgi-3.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalactic" name="scalactic_2.11">
+			<revision name="3.0.0" status="release" pubdate="20160801090816" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="27">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2875" time="0" location="C:\Users\Denis\.ivy2\cache\org.scalactic\scalactic_2.11\ivy-3.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="3.0.0" rev-constraint-default="3.0.0" rev-constraint-dynamic="3.0.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalactic_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="200869" time="0" location="C:\Users\Denis\.ivy2\cache\org.scalactic\scalactic_2.11\srcs\scalactic_2.11-3.0.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0-sources.jar"/>
+					</artifact>
+					<artifact name="scalactic_2.11" type="jar" ext="jar" status="no" details="" size="739283" time="0" location="C:\Users\Denis\.ivy2\cache\org.scalactic\scalactic_2.11\jars\scalactic_2.11-3.0.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-json_2.11">
+			<revision name="2.3.4" status="release" pubdate="20150421103516" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+				<metadata-artifact status="no" details="" size="4328" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.play\play-json_2.11\ivy-2.3.4.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.11/2.3.4/play-json_2.11-2.3.4.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="2.3.4" rev-constraint-default="2.3.4" rev-constraint-dynamic="2.3.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="play-json_2.11" type="jar" ext="jar" status="no" details="" size="630429" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.4.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.11/2.3.4/play-json_2.11-2.3.4.jar"/>
+					</artifact>
+					<artifact name="play-json_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="28923" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.play\play-json_2.11\srcs\play-json_2.11-2.3.4-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.11/2.3.4/play-json_2.11-2.3.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.6" status="release" pubdate="20140127123700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-convert/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="26">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6189" time="0" location="C:\Users\Denis\.ivy2\cache\org.joda\joda-convert\ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/joda/joda-convert/1.6/joda-convert-1.6.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="36436" time="0" location="C:\Users\Denis\.ivy2\cache\org.joda\joda-convert\srcs\joda-convert-1.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/joda/joda-convert/1.6/joda-convert-1.6-sources.jar"/>
+					</artifact>
+					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="98818" time="0" location="C:\Users\Denis\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/joda/joda-convert/1.6/joda-convert-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.3" status="release" pubdate="20130816123100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="25">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6445" time="0" location="C:\Users\Denis\.ivy2\cache\joda-time\joda-time\ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/joda-time/joda-time/2.3/joda-time-2.3.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="718287" time="0" location="C:\Users\Denis\.ivy2\cache\joda-time\joda-time\srcs\joda-time-2.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.3/joda-time-2.3-sources.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="581571" time="0" location="C:\Users\Denis\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.3/joda-time-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-datacommons_2.11">
+			<revision name="2.3.4" status="release" pubdate="20150421113546" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="24">
+				<metadata-artifact status="no" details="" size="2465" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\ivy-2.3.4.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.11/2.3.4/play-datacommons_2.11-2.3.4.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="2.3.4" rev-constraint-default="2.3.4" rev-constraint-dynamic="2.3.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="play-datacommons_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1455" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\srcs\play-datacommons_2.11-2.3.4-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.11/2.3.4/play-datacommons_2.11-2.3.4-sources.jar"/>
+					</artifact>
+					<artifact name="play-datacommons_2.11" type="jar" ext="jar" status="no" details="" size="5305" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.4.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.11/2.3.4/play-datacommons_2.11-2.3.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-functional_2.11">
+			<revision name="2.3.4" status="release" pubdate="20150421100948" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<metadata-artifact status="no" details="" size="2462" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.play\play-functional_2.11\ivy-2.3.4.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.11/2.3.4/play-functional_2.11-2.3.4.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="2.3.4" rev-constraint-default="2.3.4" rev-constraint-dynamic="2.3.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="play-functional_2.11" type="jar" ext="jar" status="no" details="" size="373157" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.4.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.11/2.3.4/play-functional_2.11-2.3.4.jar"/>
+					</artifact>
+					<artifact name="play-functional_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9504" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.play\play-functional_2.11\srcs\play-functional_2.11-2.3.4-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.11/2.3.4/play-functional_2.11-2.3.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-iteratees_2.11">
+			<revision name="2.3.4" status="release" pubdate="20150421103916" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+				<metadata-artifact status="no" details="" size="3248" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\ivy-2.3.4.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.11/2.3.4/play-iteratees_2.11-2.3.4.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="2.3.4" rev-constraint-default="2.3.4" rev-constraint-dynamic="2.3.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="play-iteratees_2.11" type="jar" ext="jar" status="no" details="" size="731003" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.4.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.11/2.3.4/play-iteratees_2.11-2.3.4.jar"/>
+					</artifact>
+					<artifact name="play-iteratees_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="32929" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\srcs\play-iteratees_2.11-2.3.4-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.11/2.3.4/play-iteratees_2.11-2.3.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-stm" name="scala-stm_2.11">
+			<revision name="0.7" status="release" pubdate="20140417234400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nbronson.github.com/scala-stm/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<license name="BSD" url="https://github.com/nbronson/scala-stm/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2569" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-stm\scala-stm_2.11\ivy-0.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-stm_2.11" type="jar" ext="jar" status="no" details="" size="630306" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.jar"/>
+					</artifact>
+					<artifact name="scala-stm_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116149" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-stm\scala-stm_2.11\srcs\scala-stm_2.11-0.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-xml-experimental_2.11">
+			<revision name="2.4.11" status="release" pubdate="20160930123014" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3375" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-http-xml-experimental_2.11\ivy-2.4.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-xml-experimental_2.11/2.4.11/akka-http-xml-experimental_2.11-2.4.11.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="2.4.11" rev-constraint-default="2.4.11" rev-constraint-dynamic="2.4.11" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-http-xml-experimental_2.11" type="jar" ext="jar" status="no" details="" size="11162" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-http-xml-experimental_2.11\jars\akka-http-xml-experimental_2.11-2.4.11.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-xml-experimental_2.11/2.4.11/akka-http-xml-experimental_2.11-2.4.11.jar"/>
+					</artifact>
+					<artifact name="akka-http-xml-experimental_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2207" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-http-xml-experimental_2.11\srcs\akka-http-xml-experimental_2.11-2.4.11-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-xml-experimental_2.11/2.4.11/akka-http-xml-experimental_2.11-2.4.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.5" status="release" pubdate="20150724220253" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3048" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109244" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\srcs\scala-xml_2.11-1.0.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5-sources.jar"/>
+					</artifact>
+					<artifact name="scala-xml_2.11" type="jar" ext="jar" status="no" details="" size="671138" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\jars\scala-xml_2.11-1.0.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-spray-json-experimental_2.11">
+			<revision name="2.4.11" status="release" pubdate="20160930123012" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="16">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3376" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-http-spray-json-experimental_2.11\ivy-2.4.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-spray-json-experimental_2.11/2.4.11/akka-http-spray-json-experimental_2.11-2.4.11.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="2.4.11" rev-constraint-default="2.4.11" rev-constraint-dynamic="2.4.11" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-http-spray-json-experimental_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3484" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-http-spray-json-experimental_2.11\srcs\akka-http-spray-json-experimental_2.11-2.4.11-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-spray-json-experimental_2.11/2.4.11/akka-http-spray-json-experimental_2.11-2.4.11-sources.jar"/>
+					</artifact>
+					<artifact name="akka-http-spray-json-experimental_2.11" type="jar" ext="jar" status="no" details="" size="24878" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-http-spray-json-experimental_2.11\jars\akka-http-spray-json-experimental_2.11-2.4.11.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-spray-json-experimental_2.11/2.4.11/akka-http-spray-json-experimental_2.11-2.4.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-jackson-experimental_2.11">
+			<revision name="2.4.11" status="release" pubdate="20160930123009" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3389" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-http-jackson-experimental_2.11\ivy-2.4.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-jackson-experimental_2.11/2.4.11/akka-http-jackson-experimental_2.11-2.4.11.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="2.4.11" rev-constraint-default="2.4.11" rev-constraint-dynamic="2.4.11" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-http-jackson-experimental_2.11" type="jar" ext="jar" status="no" details="" size="3615" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-http-jackson-experimental_2.11\jars\akka-http-jackson-experimental_2.11-2.4.11.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-jackson-experimental_2.11/2.4.11/akka-http-jackson-experimental_2.11-2.4.11.jar"/>
+					</artifact>
+					<artifact name="akka-http-jackson-experimental_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1796" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-http-jackson-experimental_2.11\srcs\akka-http-jackson-experimental_2.11-2.4.11-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-jackson-experimental_2.11/2.4.11/akka-http-jackson-experimental_2.11-2.4.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.7.6" status="release" pubdate="20160722213809" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<metadata-artifact status="no" details="" size="7763" time="0" location="C:\Users\Denis\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.7.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.7.6/jackson-databind-2.7.6.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="2.7.6" rev-constraint-default="2.7.6" rev-constraint-dynamic="2.7.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="jar" ext="jar" status="no" details="" size="1207321" time="0" location="C:\Users\Denis\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\jars\jackson-databind-2.7.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.7.6/jackson-databind-2.7.6.jar"/>
+					</artifact>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="890755" time="0" location="C:\Users\Denis\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\srcs\jackson-databind-2.7.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.7.6/jackson-databind-2.7.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.7.6" status="release" pubdate="20160722212910" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<metadata-artifact status="no" details="" size="7139" time="0" location="C:\Users\Denis\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.7.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.7.6/jackson-core-2.7.6.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="2.7.6" rev-constraint-default="2.7.6" rev-constraint-dynamic="2.7.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-core" type="jar" ext="jar" status="no" details="" size="252832" time="0" location="C:\Users\Denis\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\jars\jackson-core-2.7.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.7.6/jackson-core-2.7.6.jar"/>
+					</artifact>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="265772" time="0" location="C:\Users\Denis\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\srcs\jackson-core-2.7.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.7.6/jackson-core-2.7.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.7.0" status="release" pubdate="20160110033327" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<metadata-artifact status="no" details="" size="6684" time="0" location="C:\Users\Denis\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.7.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="2.7.0" rev-constraint-default="2.7.0" rev-constraint-dynamic="2.7.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="jar" ext="jar" status="no" details="" size="50894" time="0" location="C:\Users\Denis\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\jars\jackson-annotations-2.7.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar"/>
+					</artifact>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53136" time="0" location="C:\Users\Denis\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\srcs\jackson-annotations-2.7.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-experimental_2.11">
+			<revision name="2.4.11" status="release" pubdate="20160930122948" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3203" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-http-experimental_2.11\ivy-2.4.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/2.4.11/akka-http-experimental_2.11-2.4.11.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="2.4.11" rev-constraint-default="2.4.11" rev-constraint-dynamic="2.4.11" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-http-experimental_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="178388" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-http-experimental_2.11\srcs\akka-http-experimental_2.11-2.4.11-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/2.4.11/akka-http-experimental_2.11-2.4.11-sources.jar"/>
+					</artifact>
+					<artifact name="akka-http-experimental_2.11" type="jar" ext="jar" status="no" details="" size="2706653" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-http-experimental_2.11\jars\akka-http-experimental_2.11-2.4.11.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/2.4.11/akka-http-experimental_2.11-2.4.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-core_2.11">
+			<revision name="2.4.11" status="release" pubdate="20160930122938" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3495" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-http-core_2.11\ivy-2.4.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-core_2.11/2.4.11/akka-http-core_2.11-2.4.11.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="2.4.11" rev-constraint-default="2.4.11" rev-constraint-dynamic="2.4.11" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-http-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="361240" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-http-core_2.11\srcs\akka-http-core_2.11-2.4.11-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-core_2.11/2.4.11/akka-http-core_2.11-2.4.11-sources.jar"/>
+					</artifact>
+					<artifact name="akka-http-core_2.11" type="jar" ext="jar" status="no" details="" size="3410011" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-http-core_2.11\jars\akka-http-core_2.11-2.4.11.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-core_2.11/2.4.11/akka-http-core_2.11-2.4.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-json_2.11">
+			<revision name="1.3.2" status="release" pubdate="20150506090100" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spray/spray-json" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2992" time="0" location="C:\Users\Denis\.ivy2\cache\io.spray\spray-json_2.11\ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="spray-json_2.11" type="jar" ext="jar" status="no" details="" size="286389" time="0" location="C:\Users\Denis\.ivy2\cache\io.spray\spray-json_2.11\jars\spray-json_2.11-1.3.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar"/>
+					</artifact>
+					<artifact name="spray-json_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="22871" time="0" location="C:\Users\Denis\.ivy2\cache\io.spray\spray-json_2.11\srcs\spray-json_2.11-1.3.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-parsing_2.11">
+			<revision name="2.4.11" status="release" pubdate="20160930122448" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2720" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-parsing_2.11\ivy-2.4.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-parsing_2.11/2.4.11/akka-parsing_2.11-2.4.11.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="2.4.11" rev-constraint-default="2.4.11" rev-constraint-dynamic="2.4.11" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-parsing_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="62996" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-parsing_2.11\srcs\akka-parsing_2.11-2.4.11-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-parsing_2.11/2.4.11/akka-parsing_2.11-2.4.11-sources.jar"/>
+					</artifact>
+					<artifact name="akka-parsing_2.11" type="jar" ext="jar" status="no" details="" size="976001" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-parsing_2.11\jars\akka-parsing_2.11-2.4.11.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-parsing_2.11/2.4.11/akka-parsing_2.11-2.4.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.8" status="release" pubdate="20160308221602" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="28">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2860" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="562895" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-sources.jar"/>
+					</artifact>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4573750" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.8.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream_2.11">
+			<revision name="2.4.11" status="release" pubdate="20160930122606" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3272" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\ivy-2.4.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-stream_2.11/2.4.11/akka-stream_2.11-2.4.11.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="2.4.11" rev-constraint-default="2.4.11" rev-constraint-dynamic="2.4.11" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-stream_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="361780" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\srcs\akka-stream_2.11-2.4.11-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-stream_2.11/2.4.11/akka-stream_2.11-2.4.11-sources.jar"/>
+					</artifact>
+					<artifact name="akka-stream_2.11" type="jar" ext="jar" status="no" details="" size="4277986" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.11.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-stream_2.11/2.4.11/akka-stream_2.11-2.4.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.0" status="release" pubdate="20150429111400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2426" time="0" location="C:\Users\Denis\.ivy2\cache\org.reactivestreams\reactive-streams\ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3130" time="0" location="C:\Users\Denis\.ivy2\cache\org.reactivestreams\reactive-streams\srcs\reactive-streams-1.0.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0-sources.jar"/>
+					</artifact>
+					<artifact name="reactive-streams" type="jar" ext="jar" status="no" details="" size="2042" time="0" location="C:\Users\Denis\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="ssl-config-akka_2.11">
+			<revision name="0.2.1" status="release" pubdate="20160413013006" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/ssl-config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2908" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe\ssl-config-akka_2.11\ivy-0.2.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/ssl-config-akka_2.11/0.2.1/ssl-config-akka_2.11-0.2.1.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="0.2.1" rev-constraint-default="0.2.1" rev-constraint-dynamic="0.2.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="ssl-config-akka_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5451" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe\ssl-config-akka_2.11\srcs\ssl-config-akka_2.11-0.2.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/ssl-config-akka_2.11/0.2.1/ssl-config-akka_2.11-0.2.1-sources.jar"/>
+					</artifact>
+					<artifact name="ssl-config-akka_2.11" type="jar" ext="jar" status="no" details="" size="25715" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe\ssl-config-akka_2.11\jars\ssl-config-akka_2.11-0.2.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/ssl-config-akka_2.11/0.2.1/ssl-config-akka_2.11-0.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="ssl-config-core_2.11">
+			<revision name="0.2.1" status="release" pubdate="20160413013007" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/ssl-config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2909" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe\ssl-config-core_2.11\ivy-0.2.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/ssl-config-core_2.11/0.2.1/ssl-config-core_2.11-0.2.1.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="0.2.1" rev-constraint-default="0.2.1" rev-constraint-dynamic="0.2.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="ssl-config-core_2.11" type="jar" ext="jar" status="no" details="" size="365288" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe\ssl-config-core_2.11\jars\ssl-config-core_2.11-0.2.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/ssl-config-core_2.11/0.2.1/ssl-config-core_2.11-0.2.1.jar"/>
+					</artifact>
+					<artifact name="ssl-config-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="49384" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe\ssl-config-core_2.11\srcs\ssl-config-core_2.11-0.2.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/ssl-config-core_2.11/0.2.1/ssl-config-core_2.11-0.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.4" status="release" pubdate="20150430090700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2837" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42276" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\srcs\scala-parser-combinators_2.11-1.0.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar"/>
+					</artifact>
+					<artifact name="scala-parser-combinators_2.11" type="jar" ext="jar" status="no" details="" size="423753" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\jars\scala-parser-combinators_2.11-1.0.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
+			<revision name="2.4.11" status="release" pubdate="20160930122429" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2865" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\ivy-2.4.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.11/akka-actor_2.11-2.4.11.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="2.4.11" rev-constraint-default="2.4.11" rev-constraint-dynamic="2.4.11" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="396349" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\srcs\akka-actor_2.11-2.4.11-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.11/akka-actor_2.11-2.4.11-sources.jar"/>
+					</artifact>
+					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="3273337" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.11.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.11/akka-actor_2.11-2.4.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.11">
+			<revision name="0.7.0" status="release" pubdate="20150831185044" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2945" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.11" type="jar" ext="jar" status="no" details="" size="582358" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\jars\scala-java8-compat_2.11-0.7.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.jar"/>
+					</artifact>
+					<artifact name="scala-java8-compat_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12469" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\srcs\scala-java8-compat_2.11-0.7.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.0" status="release" pubdate="20150508104600" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2783" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe\config\ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="167084" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe\config\srcs\config-1.3.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0-sources.jar"/>
+					</artifact>
+					<artifact name="config" type="jar" ext="jar" status="no" details="" size="277782" time="0" location="C:\Users\Denis\.ivy2\cache\com.typesafe\config\jars\config-1.3.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160308221604" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="default" name="denis_roldan_finalproject$sources_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5744974" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="911686" time="0" location="C:\Users\Denis\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
